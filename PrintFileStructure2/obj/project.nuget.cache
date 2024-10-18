@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "G3U+WjMB0uU31fo+a//Y53+muxG7ZXUr0PR9aqX/OZOVdJlh6D1XB84ad8/0YnIZyklY7eQyVrDSPXVrK5EcFw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Benny\\source\\repos\\PrintFileStructure2\\ConsoleApp5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Benny\\.nuget\\packages\\system.commandline\\2.0.0-beta2.21617.1\\system.commandline.2.0.0-beta2.21617.1.nupkg.sha512",
+    "C:\\Users\\Benny\\.nuget\\packages\\system.commandline.parser\\0.1.1\\system.commandline.parser.0.1.1.nupkg.sha512",
+    "C:\\Users\\Benny\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ConsoleApp5 depends on System.CommandLine (>= 2.0.0-beta2) but System.CommandLine 2.0.0-beta2 was not found. An approximate best match of System.CommandLine 2.0.0-beta2.21617.1 was resolved.",
+      "libraryId": "System.CommandLine",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.CommandLine.Parser 0.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.CommandLine.Parser",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
